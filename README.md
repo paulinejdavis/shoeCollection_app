@@ -30,3 +30,9 @@ As a shoecull user
 So I can update my my shoe collection
 I would like to keep my entry up to date and current 
 ```
+
+## Diagrams
+
+### Backend Diagram
+
+### Frontend Diagram

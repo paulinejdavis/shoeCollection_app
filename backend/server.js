@@ -1,6 +1,7 @@
 
 const express = require('express')
 const mongoose = require('mongoose')
+const routes = require('./routes/shoeCull')
 require('dotenv').config()
 
 const cors = require('cors')

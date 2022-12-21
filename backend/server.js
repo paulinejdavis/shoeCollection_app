@@ -1,10 +1,11 @@
 
 const express = require('express')
 const mongoose = require('mongoose')
-const routes = require('./routes/shoeCull')
+const cors = require('cors')
+
 require('dotenv').config()
 
-const cors = require('cors')
+const routes = require('./routes/shoeCullRoute')
 
 const app = express()
 const PORT = process.env.port || 5000;
@@ -24,6 +25,6 @@ mongoose
     .then(() => console.log(`Connected to Mongodb...`))
     .catch((err) => console.log(err));
 
-
+app.use(routes)
 
 app.listen(PORT, () => console.log("listening on:" + PORT))

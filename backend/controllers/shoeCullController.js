@@ -17,4 +17,14 @@ module.exports.saveShoeCull = async (req, res) => {
             console.log(data)
             res.send(data);
         })   
-    }
+    
+}
+
+module.exports.updateShoeCull = async (req, res) => {
+    const {id, text} = req.body;
+    shoeCullModel
+        .findByIdAndUpdate(id, [text])
+        .then(() => res.set(201).send("Shoe cull updated successfully"))
+        .catch((err) => console.log(err))
+}
+

@@ -8,8 +8,8 @@ import './App.css';
 function App() {
   return (
   
-    <div className="App">
-        <div className="image" style={{ backgroundImage:`url(${image})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
+    <div className="App"
+    style={{ backgroundImage:`url(${image})`}}>
       <img className="logo" src={logo} alt="Logo" />
      
      <div className="container">
@@ -18,7 +18,6 @@ function App() {
        
       </div>
       </div>
-     </div>
     </div>
   );
 }

@@ -15,9 +15,14 @@ function App() {
      
      <div className="container">
       <div className="top">
-        <input type="text" placeholder="Add a shoe..." />
-       
+        <input type="text" placeholder="Add a shoe.." />
+
+          <div className="add">Add</div>
       </div>
+      <div className="list">
+        <div className="shoeCull">
+          </div>
+        </div>
       </div>
     </div>
   );

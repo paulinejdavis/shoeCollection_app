@@ -10,7 +10,7 @@ function App() {
   
     <div className="App"
     style={{ backgroundImage:`url(${image})`}}>
-      <img className="logo" src={logo} alt="Logo" />
+      <img className="logo" src={logo} alt="Logo"/>
      
      <div className="container">
       <div className="top">

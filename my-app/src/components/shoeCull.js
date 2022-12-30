@@ -1,19 +1,20 @@
 import React from 'react'
 
-import {BiEdit} from "react-icons/bi"
-import {AiFillDelete} from "react-icons/ai"
 
-const shoeCull = ({text, updateMode, deleteShoeCull}) => {
+import { BiEdit } from 'react-icons/bi'
+import { AiFillDelete } from 'react-icons/ai'
+
+const ShoeCull = ({text, updateMode, deleteShoeCull}) => {
     return (
-        <div className="shoeCull">
-            <div className="text">{text}
-        </div>
-           <div className="icons">
-             <BiEdit className='icon' onclick={updateMode} />
-            <AiFillDelete className='icon' onclick={deleteShoeCull} />
+        <div className="shoecull">
+            <div className="text">{text}</div>
+            
+             <div className="icons">
+                <BiEdit className='icon' onClick={updateMode} />
+                <AiFillDelete className='icon' onClick={deleteShoeCull} />
             </div>
          </div>
     )
 }
 
-export default shoeCull
+export default ShoeCull

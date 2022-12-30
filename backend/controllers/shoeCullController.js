@@ -8,7 +8,7 @@ module.exports.getShoeCull = async (req, res) => {
 
 module.exports.saveShoeCull = async (req, res) => {
 
-    const {text} = req.body;
+    const { text } = req.body;
    
     shoeCullModel
         .create({text})
@@ -17,6 +17,14 @@ module.exports.saveShoeCull = async (req, res) => {
             console.log(data)
             res.send(data);
         })   
+        .catch((err) => console.log(err))
+}
+
+module.exports.updateShoeCull = (req, res) => {
+    const { _id, text } = req.body;
+    shoeCullModel
+        .findByIdAndUpdate( _id, {text} )
+        .then(() => res.set(201).send("Shoe cull updated successfully"))
         .catch((err) => console.log(err))
 }
 
@@ -30,12 +38,6 @@ module.exports.deleteShoeCull = (req, res) => {
         .catch((err) => console.log(err))
 }
 
-module.exports.updateShoeCull = (req, res) => {
-    const { _id, text } = req.body;
-    shoeCullModel
-        .findByIdAndUpdate( _id, {text} )
-        .then(() => res.set(201).send("Shoe cull updated successfully"))
-        .catch((err) => console.log(err))
-}
+
 
 

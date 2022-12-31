@@ -6,7 +6,7 @@ import { AiFillDelete } from 'react-icons/ai'
 
 const ShoeCull = ({text, updateMode, deleteShoeCull}) => {
     return (
-        <div className="shoecull">
+        <div className="list">
             <div className="text">{text}</div>
             
              <div className="icons">

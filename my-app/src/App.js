@@ -31,8 +31,8 @@ function App() {
     <div className="App"
     
     style={{ backgroundImage:`url(${image})`}}>
-      <img className="logo" src={logo} alt="Logo" width={700}/>
-     
+      <div className="logo"> <img src={logo} alt="logo" width={700}/>
+      </div>
      <div className="container">
 
       <div className="top">

@@ -3,6 +3,7 @@ import React from 'react'
 
 import { BiEdit } from 'react-icons/bi'
 import { AiFillDelete } from 'react-icons/ai'
+// import { image } from '../images/depop.png'
 
 const ShoeCull = ({text, updateMode, deleteShoeCull}) => {
     return (
@@ -12,6 +13,7 @@ const ShoeCull = ({text, updateMode, deleteShoeCull}) => {
              <div className="icons">
                 <BiEdit className='icon' onClick={updateMode} />
                 <AiFillDelete className='icon' onClick={deleteShoeCull} />
+                {/* <image className='image' onClick={updateMode} /> */}
             </div>
          </div>
     )

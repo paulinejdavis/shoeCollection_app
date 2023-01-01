@@ -34,7 +34,7 @@ I would like to keep my entry up to date and current
 ## Diagrams
 
 ### Wireframe
-<img src='images/wireframe.png'/>
+<img src='frontend/src/images/wireframe.png'/>
 
 ### Backend Diagram
 

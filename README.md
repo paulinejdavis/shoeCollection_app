@@ -15,7 +15,7 @@ A shoe collection App with CRUD functionality with a comprehensive list of worn 
 ## User Stories
 ```
 As a shoecull user
-So I can keeo track of my shoes.
+So I can keep track of my shoes.
 I would like to understand to be clear on worn and unworn shoes.
 ```
 
@@ -36,6 +36,6 @@ I would like to keep my entry up to date and current
 ### Wireframe
 <img src='frontend/src/images/wireframe.png'/>
 
-### Backend Diagram
+### Frontend & Backend Diagram
+<img src='frontend/src/images/diagram.png'/>
 
-### Frontend Diagram

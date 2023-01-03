@@ -11,8 +11,8 @@ import image from './images/background.jpg';
 
 function App() {
 
-  const[shoeCull, setShoeCull] = useState([]);
-  const[text, setText] = useState("")
+  const [shoeCull, setShoeCull] = useState([]);
+  const [text, setText] = useState("")
   const [isUpdating, setIsUpdating] = useState(false)
   const [shoeCullId, setShoeCullId] = useState("")
 
@@ -58,7 +58,7 @@ function App() {
 
         </div>
       </div>
-  </div>
+   </div>
     
   );
 }

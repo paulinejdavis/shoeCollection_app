@@ -33,9 +33,26 @@ I would like to keep my entry up to date and current
 
 ## Diagrams
 
-### Wireframe
+### Wireframe Diagram
 <img src='frontend/src/images/wireframe.png'/>
 
 ### Frontend & Backend Diagram
 <img src='frontend/src/images/diagram.png'/>
+
+## How to run
+
+Clone this repository:
+
+```
+git clone https://github.com/paulinejdavis/shoeCollection_app.git
+
+```
+
+Run the frontend:
+
+```
+cd frontend
+npm install
+npm run start
+```
 
